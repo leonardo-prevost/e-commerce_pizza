@@ -1,2 +1,2 @@
 # e-commerce_pizza
- A simple pizza e-commerce application. 
+ A simple front-end pizza e-commerce application. 
