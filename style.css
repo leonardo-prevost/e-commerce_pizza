@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color:#EEE;
+    background-color:rgb(204, 204, 204);
     font-family:'Lato',Helvetica,Arial;
     font-size:15px;
     display:flex;
@@ -19,7 +19,7 @@ header {
     top:0;
     right:0;
     height:60px;
-    background-color:#399ade;
+    background-color:#0b3f65;
     display:none;
     justify-content: flex-end;
     align-items: center;
@@ -27,7 +27,7 @@ header {
 .menu-openner {
     margin-right: 15px;
     font-size: 26px;
-    background-color: #a9dcff;
+    background-color: #e4e5e6;
     padding: 5px 20px;
     border-radius: 5px;
 }
@@ -42,7 +42,7 @@ header {
 }
 
 aside {
-    background-color:#9ccbe6;
+    background-color:rgb(204, 204, 204);
     width:0vw;
     font-family:'Hepta Slab', Helvetica, Arial;
     transition:all ease .2s;
@@ -136,7 +136,7 @@ h1 {
 }
 .pizzaWindowBody {
     width:900px;
-    background-color:#FFF;
+    background-color:rgb(204, 204, 204);
     border-radius:10px;
     box-shadow:0px 0px 15px #999;
     display:flex;
