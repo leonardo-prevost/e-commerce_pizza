@@ -85,11 +85,8 @@ qSa('.pizzaInfo--size').forEach((size, sizeIndex)=>{
 //Cart
 qS('.pizzaInfo--addButton').addEventListener('click', ()=>{
     let size = parseInt(qS('.pizzaInfo--size.selected').getAttribute('data-key'));
-   
     let identifier = pizzaJson[modalKey].id+'@'+size;
-
-    let key = cart.findIndex((item)=> item.identifier == identifier);
-    
+    let key = cart.findIndex((item)=> item.identifier == identifier);  
     if(key > -1){
         cart[key].qt += modalQt;
     }else{
@@ -100,7 +97,24 @@ qS('.pizzaInfo--addButton').addEventListener('click', ()=>{
             qt:modalQt
         });
     }    
-
+    updateCart();
     closeModal();
 });
+
+function updateCart() {
+    if(cart.length > 0) {
+        qS('aside').classList.add('show');
+
+    for(let i in cart) {
+
+        let pizzaItem = pizzaJson.find((item)=> item.id == cart[i].id);
+
+        console.log(pizzaItem);
+    }
+
+    }else {
+        qS('aside').classList.remove('show');
+    }
+}
+
 
