@@ -32,11 +32,11 @@
 
 ##**Build with:**
 
--**HTLM**
+✔**HTLM**
 
--**CSS**
+✔**CSS**
 
--**JAVASCRIPT**
+✔**JAVASCRIPT**
 
 
 
