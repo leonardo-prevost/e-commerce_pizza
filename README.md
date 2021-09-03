@@ -32,9 +32,9 @@
 
 ##**Technnologies**
 
-✔**HTLM**
+✔**HTLM5**
 
-✔**CSS**
+✔**CSS3**
 
 ✔**JAVASCRIPT**
 
