@@ -30,7 +30,7 @@
 ![ecommerce_pizza_gif](https://user-images.githubusercontent.com/46681477/131959621-ec2d2a21-2b83-474d-94cc-f3894195a15b.gif)
 
 
-##**Build with:**
+##**Technnologies**
 
 ✔**HTLM**
 
